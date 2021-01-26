@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+h2 {text-align: center;}
+h4 {text-align: center;}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<img src="erciyes.jpg" alt="erciyes.logo" style="width:100%;">
+
+<h2>Erciyes Üniversitesi Bilgisayar Mühendisliği Bölümü Web Programlama 1 dersi final sorusu</h2>
+<h2>Dr. Öğr. Üyesi Fehim KÖYLÜ</h2>
+<h2>Alışveriş Uygulaması</h2>
+<h4>Vermek istediğiniz siparişler için aşağıdaki listeden seçerek adedini belirtiniz</h4>
+
+<main class="container">
+
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 fw-normal">Ekmek</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">2tl <small class="text-muted">/ adet</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Somun Ekmek</li>
+          <li>200gr</li>
+        </ul>
+        <button type="button" class="w-100 btn btn-lg btn-outline-primary">Sepete Ekle</button>
+      </div>
+    </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 fw-normal">Çikolata</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">5tl <small class="text-muted">/ adet</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Bitter Çikolata</li>
+          <li>60 gr</li>
+        </ul>
+        <button type="button" class="w-100 btn btn-lg btn-primary">Sepete Ekle</button>
+      </div>
+    </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 fw-normal">Domates</h4>
+      </div>
+      <div class="card-body">
+        <h1 class="card-title pricing-card-title">6tl <small class="text-muted">/ kg</small></h1>
+        <ul class="list-unstyled mt-3 mb-4">
+          <li>Domates</li>
+          <li>Antalya Sera</li>
+
+        </ul>
+        <button type="button" class="w-100 btn btn-lg btn-primary">Sepete Ekle</button>
+      </div>
+    </div>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+</body>
+</html>
